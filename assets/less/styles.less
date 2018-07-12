@@ -1,0 +1,328 @@
+/* Default */
+@white: #fff;
+@deep-blue: #004E96;
+@light-blue: #17baef;
+@gray-blue: #074f66;
+@dark-blue: #053C4E;
+@white-blue: #AFC4D5;
+
+@yellow: #eebf3f;
+
+@gray: #666;
+@dark-gray: #444;
+@midl-gray: #ccc;
+
+@night-blue: #042a36;
+
+/* ======= Base ======= */
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: @dark-gray;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(images/3.jpg);
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: @deep-blue;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: @light-blue;
+}
+textarea {
+  width: 150px;
+  height: 100px;
+  text-align: left;
+}
+a {
+  color: @deep-blue;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: @light-blue;
+}
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+.btn .fa,
+a.btn .fa {
+  margin-right: 5px;
+}
+.btn:focus,
+a.btn:focus {
+  color: @white;
+}
+a.btn-cta-primary,
+.btn-cta-primary {
+  background: @gray-blue;
+  border: 1px solid @gray-blue;
+  color: @white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-primary:hover,
+.btn-cta-primary:hover {
+  background: @dark-blue;
+  border: 1px solid @dark-blue;
+  color: @white;
+}
+a.btn-cta-secondary,
+.btn-cta-secondary {
+  background: @yellow;
+  border: 1px solid @yellow;
+  color: @white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.btn-cta-secondary:hover,
+.btn-cta-secondary:hover {
+  background: @yellow;
+  border: 1px solid @yellow;
+  color: @white;
+}
+.text-highlight {
+  color: @gray-blue;
+}
+.offset-header {
+  padding-top: 90px;
+}
+pre code {
+  font-size: 16px;
+}
+/* ======= Header ======= */
+.header {
+  padding: 10px 0;
+  background: @deep-blue;
+  color: @white;
+  position: fixed;
+  width: 100%;
+}
+.header.navbar-fixed-top {
+  background: @white;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+.header.navbar-fixed-top .logo a {
+  color: @deep-blue;
+}
+.header.navbar-fixed-top .main-nav .nav .nav-item a {
+  color: @gray;
+}
+.header .logo {
+  margin: 0;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.header .logo a {
+  color: @white;
+}
+.header .logo a:hover {
+  text-decoration: none;
+}
+.header .main-nav button {
+  background: @gray-blue;
+  color: @white !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.header .main-nav button:focus {
+  outline: none;
+}
+.header .main-nav button .icon-bar {
+  background-color: @white;
+}
+.header .main-nav .navbar-collapse {
+  padding: 0;
+}
+.header .main-nav .nav .nav-item {
+  font-weight: normal;
+  margin-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .main-nav .nav .nav-item.active a {
+  color: @light-blue;
+  background: none;
+}
+.header .main-nav .nav .nav-item a {
+  color: @white;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  font-size: 20px;
+  padding: 15px 10px;
+}
+.header .main-nav .nav .nav-item a:hover {
+  color: @white-blue;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:focus {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item a:active {
+  outline: none;
+  background: none;
+}
+.header .main-nav .nav .nav-item.active {
+  color: @light-blue;
+}
+.header .main-nav .nav .nav-item.last {
+  margin-right: 0;
+}
+/* ======= Choice ======= */
+.choice {
+  padding: 150px;
+  padding-top: 200px;
+}
+.choice2 {
+  text-align: center;
+  padding: 100px;
+}
+/* ======= Table ======= */
+@media (min-width: 768px){
+table {
+  background: @white;
+  border: 2px solid @midl-gray;
+  border-collapse: collapse;
+}
+.table_app {
+  padding: 80px 10px 10px 10px;
+}
+}
+@media (max-width: 768px) {
+.object {
+        display: none;
+    }
+}
+/* ======= List ======= */
+.list {
+	text-align: center;
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.ul2{
+	margin-top: 10px;
+}
+@media (min-width: 768px) {
+.object2 {
+        display: none;
+    }
+}
+/* ======= Button ======= */
+.text {
+  display: block;
+  width: 300px;
+  height: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  outline: none;
+  overflow: hidden;
+  text-align: left;
+}
+@media (max-width: 400px) {
+  .text {
+  display: block;
+  width: 150px;
+  height: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  outline: none;
+  overflow: hidden;
+  text-align: left;
+}
+}
+.text:focus,
+button:focus ~ .text {
+  height: auto;
+}
+/* ======= Footer ======= */
+.footer {
+  padding: 15px;
+  background: @night-blue;
+  color: @white;
+}
+.footer .copyright {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .header .main-nav button {
+    margin-right: 0;
+  }
+  .header .main-nav .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .choice {
+	padding: 0px;
+    padding-top: 100px;
+  }
+  .choice2 {
+    padding: 0px;
+	padding-top: 100px;
+  }
+  .btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */ 
+@media (min-width: 1200px) {
+  .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+}
