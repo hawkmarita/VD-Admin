@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Перевозки</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="vdicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	<!-- Theme LESS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/less/styles.less">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body data-spy="scroll">
+    
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto">
+                    <span class="logo-title">"Волга Днепр"</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a href="app-requests.html">Доступ к приложению</a></li>                      
+                        <li class="nav-item last"><a href="transfer-requests.html">Перевозки</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+	
+<!-- ******TRANSFER-REQUESTS TABLE****** -->	
+	<div class="table_app object">
+	    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>ФИО</th>
+                <th>Воздушное судно</th>
+                <th>Аэропорт</th>
+                <th>Дата перевозки</th>
+		        <th>Вес груза</th>
+				<th>Описание груза</th>
+				<th>Перейти</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+                <td>Иванов Иван Иванович</td>
+                <td>Ил-76</td>
+                <td><ul class="nav"> 
+							    <li>Домодедово</li>
+								<li>DME</li>
+								<li>UUDD</li>
+							</ul></td>
+                <td>15/10/2018</td>
+			    <td>115 кг</td>
+                <td>
+				    <button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div>
+				</td>
+				<td><button type="button" class="btn btn-primary btn-sm">Перейти</button></td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+                <td>Петров Петр Петрович</td>
+                <td>Ил-76</td>
+                <td><ul class="nav"> 
+							    <li>Домодедово</li>
+								<li>DME</li>
+								<li>UUDD</li>
+							</ul></td>
+                <td>15/10/2018</td>
+			    <td>115 кг</td>
+                <td>
+				    <button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div>
+				</td>
+				<td><button type="button" class="btn btn-primary btn-sm">Перейти</button></td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+                <td>Осипов Осип Осипович</td>
+                <td>Ил-76</td>
+                <td><ul class="nav"> 
+							    <li>Домодедово</li>
+								<li>DME</li>
+								<li>UUDD</li>
+							</ul></td>
+                <td>15/10/2018</td>
+			    <td>115 кг</td>
+                <td>
+				    <button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div>
+				</td>
+				<td><button type="button" class="btn btn-primary btn-sm">Перейти</button></td>
+            </tr>
+        </tbody>
+        </table>
+    </div><!--//Transfer-requests table-->
+	  
+	  <!-- ******TRANSFER-REQUESTS LIST****** -->	
+	<div class="list object2">
+	    <ul>
+		    <ul type="none" class="ul2">
+			    <li># 1</li>
+				<li>Иванов Иван Иванович</li>
+				<li>Ил-76</li>
+				<li><ul class="nav"><b> 
+							<li>Домодедово</li>
+						    <li>DME</li>
+							<li>UUDD</li>
+					</b></ul></li>
+				<li>15/10/2018</li>
+				<li>115 кг</li>
+				<li><button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div></li>
+				<li><button type="button" class="btn btn-primary btn-sm">Перейти</button></li>
+			</ul>
+			<ul type="none" class="ul2">
+			    <li># 2</li>
+				<li>Петров Петр Петрович</li>
+				<li>Ил-76</li>
+				<li><ul class="nav"><b> 
+							<li>Домодедово</li>
+						    <li>DME</li>
+							<li>UUDD</li>
+					</b></ul></li>
+				<li>15/10/2018</li>
+				<li>115 кг</li>
+				<li><button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div></li>
+				<li><button type="button" class="btn btn-primary btn-sm">Перейти</button></li>
+			</ul>
+			<ul type="none" class="ul2">
+			    <li># 3</li>
+				<li>Осипов Осип Осипович</li>
+				<li>Ил-76</li>
+				<li><ul class="nav"><b> 
+							<li>Домодедово</li>
+						    <li>DME</li>
+							<li>UUDD</li>
+					</b></ul></li>
+				<li>15/10/2018</li>
+				<li>115 кг</li>
+				<li><button type="button" class="btn">Еще...</button>
+                    <div class="text" tabindex="0">
+                    Большая картонная коробка, перемотанная скотчем и скрепленная степлером, с резиновыми желтыми уточками и маленькими желтыми утятами
+                    </div></li>
+				<li><button type="button" class="btn btn-primary btn-sm">Перейти</button></li>
+			</ul>
+		</ul>
+    </div><!--//Transfer-requests list-->
+	  
+    <!-- ******FOOTER****** --> 
+    <footer class="footer navbar-fixed-bottom row-fluid">
+        <div class="container text-center">
+            <small class="copyright">Для компании "Волга-Днепр". 2018</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>   
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>   
+    <script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/css/less/less.min.js"></script>
+</body>
+</html> 
+
